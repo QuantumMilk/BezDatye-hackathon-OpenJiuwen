@@ -67,9 +67,9 @@ timeout -k 1000s 1h docker run --rm --name "run-${TEAM}" \
 docker run --rm --network none --read-only --tmpfs /tmp:rw,size=2g \
   -e HOME=/tmp --cap-drop ALL --security-opt no-new-privileges \
   --entrypoint python hack:latest -m scripts.check_runtime
+```
 
 ---
 Участники команды БезДатые:
 Молоканов И.И.
 Яковлев И.И.
-```
