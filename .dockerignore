@@ -1,0 +1,9 @@
+**
+!requirements.lock
+!app/
+!app/run_agent.py
+!app/harness/
+!app/harness/*.py
+!app/scripts/
+!app/scripts/check_api.py
+!app/scripts/check_runtime.py
